@@ -9,7 +9,7 @@ import { EmployeeService } from '../../shared/employee.service';
 })
 export class EmployeeComponent implements OnInit {
 
-  constructor( private service: EmployeeService) { }
+  constructor( public service: EmployeeService) { }
 
   departments =  [
     { id: 1, value: 'Dep1'},
